@@ -1,9 +1,9 @@
-import "./App.css";
+import Profile from "./components/Profile";
 
 export default function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="bg-green-500 h-screen flex items-center justify-center text-white">
+      <Profile />
+    </div>
   );
 }
